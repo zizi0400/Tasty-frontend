@@ -1,0 +1,39 @@
+.onboarding-page {
+  background-color: #70b9be;
+  height: 100vh;
+  background-image: url("../../../assets/images/Pattern\ \(1\).png");
+
+  img {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  div {
+    position: absolute;
+    bottom: 0;
+    background-color: #ffff;
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    padding: 40px 24px;
+    text-align: center;
+
+    p {
+      color: #97a2b0;
+      margin-top: 10px;
+      font-size: 18px;
+      line-height: 26px;
+      padding-inline: 50px;
+      margin-bottom: 48px;
+    }
+  }
+}
+
+.onboarding-button {
+  background-color: #042628;
+  color: #ffff;
+  display: block;
+  line-height: 54px;
+  border-radius: 16px;
+  text-decoration: none;
+}
